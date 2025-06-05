@@ -1,0 +1,8 @@
+{
+    "gameTitle": {
+        "title": "Game Title",
+        "img_src": "https://placehold.co/600x400",
+        "path": "/",
+        "description": "Short Description"
+    }
+}
