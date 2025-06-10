@@ -1,9 +1,9 @@
 # JavaScript Games
 A collection of well known and beloved games that run on JavaScript. Here they can be easily accessed and played. Currently the planned list include:
 - Solitaire
-- Mastermind
+- Mastermind (Developed)
 - Minefield (?)
-- Battleships (?) mining
+- Battleships (?) <!-- mining -->
 
 ## Tech Stack
 ### Languages: JavaScript
@@ -14,25 +14,25 @@ A collection of well known and beloved games that run on JavaScript. Here they c
 ### Purpose: Centralise Game Projects
 I had previously made Solitaire within 3 days and after revisiting the project decided I wished to refurbish the application. In doing so I found the inspiration to build several other games. Rather than separate the applications I thought it would be more beneficial to group them together.
 
-### Current Status: Initialisation
-Currently I am working on other projects that have my priority and have made this repository to track where this project will be on my profile. When I have the time I will be able to focus more time on this.
+### Current Status: Development
+Currently I am working on other projects that have my priority and have made this repository to track where this project will be on my profile. I have only developed the mechanics to mastermind, however the ui is still undeveloped.
 
 <!-- ## Features
 ### Core Features:
 - Localised hub for all JavaScript games -->
 
 
-<!-- ## Development Notes -->
-<!-- ### Recently Implemented:
--  -->
+## Development Notes
+### Recently Implemented:
+- Developed Core Mastermind Mechanics
 
-<!-- ### Known Issues & Solutions
-- **Issue Title**
-    - Affected Files: `FileName.txt`, `OtherFileName.txt`, etc
-    - Status: Functional/Non-Functional/Other
-    - Plan: If any applicable
+### Known Issues & Solutions
+- **UI**
+    - Affected Files: All
+    - Status: Functional
+    - Plan: Basic UI implementation
 
-- **Issue Title**
+<!-- - **Issue Title**
     - Affected Files: `FileName.txt`, `OtherFileName.txt`, etc
     - Status: Functional/Non-Functional/Other
     - Plan: If any applicable -->
