@@ -1,6 +1,6 @@
 # JavaScript Games
 A collection of well known and beloved games that run on JavaScript. Here they can be easily accessed and played. Currently the planned list include:
-- Solitaire
+- Sudoku
 - Mastermind (Developed)
 - Minefield (?)
 - Battleships (?) <!-- mining -->
@@ -12,7 +12,7 @@ A collection of well known and beloved games that run on JavaScript. Here they c
 
 ## Overview
 ### Purpose: Centralise Game Projects
-I had previously made Solitaire within 3 days and after revisiting the project decided I wished to refurbish the application. In doing so I found the inspiration to build several other games. Rather than separate the applications I thought it would be more beneficial to group them together.
+I found the inspiration to build several retro games. Rather than separate the applications I thought it would be more beneficial to group them together.
 
 ### Current Status: Development
 Currently I am working on other projects that have my priority and have made this repository to track where this project will be on my profile. I have only developed the mechanics to mastermind, however the ui is still undeveloped.
@@ -25,12 +25,17 @@ Currently I am working on other projects that have my priority and have made thi
 ## Development Notes
 ### Recently Implemented:
 - Developed Core Mastermind Mechanics
+- Developed Minesweeper
 
 ### Known Issues & Solutions
 - **UI**
     - Affected Files: All
     - Status: Functional
-    - Plan: Basic UI implementation
+    - Plan: Basic UI Implementation
+- **Render Overload**
+    - Affected Files: `Minesweep.jsx`
+    - Status: Prone to Processing Overload
+    - Plan: Review State Management.
 
 <!-- - **Issue Title**
     - Affected Files: `FileName.txt`, `OtherFileName.txt`, etc
