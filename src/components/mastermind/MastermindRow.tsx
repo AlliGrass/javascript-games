@@ -25,7 +25,7 @@ function MastermindRow({colourList, active, updateAttempt, attemptFeedback}) {
 
     return (
         <div style={{ 
-            border: '5px solid red',
+            border: '5px solid black',
             display: "grid",
             gridTemplateColumns: "4fr 1fr"
         }}>

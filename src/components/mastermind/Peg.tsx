@@ -4,7 +4,7 @@ function Peg({pegColour, setPegColour}) {
     return (
         <div onClick={setPegColour} style={{
             padding: "20px",
-            border: "2px solid blue",
+            border: "2px solid black",
             borderRadius: "50px",
             backgroundColor: pegColour
         }}>

@@ -12,7 +12,7 @@ function FeedbackPegs({attemptFeedback}) {
             {attemptFeedback.map((feedbackColour, index) => (
                 <div key={index} style={{
                     aspectRatio: "1",
-                    border: "2px solid blue",
+                    border: "2px solid black",
                     borderRadius: "50px",
                     minHeight: "0", 
                     backgroundColor: feedbackColour

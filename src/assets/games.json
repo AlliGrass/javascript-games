@@ -1,26 +1,17 @@
 {
-    "gameTitle": {
-        "title": "Game Title",
-        "img_src": "https://placehold.co/600x400",
-        "path": "/",
-        "description": "Short Description"
-    },
     "mastermind": {
         "title": "Mastermind",
         "img_src": "https://placehold.co/600x400",
-        "path": "/mastermind",
-        "description": "Short Description"
+        "path": "/mastermind"
     },
     "sudoku": {
         "title": "Sudoku",
         "img_src": "https://placehold.co/600x400",
-        "path": "/sudoku",
-        "description": "Short Description"
+        "path": "/sudoku"
     }, 
     "minesweeper": {
         "title": "Minesweeper",
         "img_src": "https://placehold.co/600x400",
-        "path": "/minesweeper",
-        "description": "Short Description"
+        "path": "/minesweeper"
     }
 }
