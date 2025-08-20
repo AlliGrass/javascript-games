@@ -15,7 +15,7 @@ function Sudoku() {
                     display: 'grid',
                     gridTemplateColumns: 'repeat(3, 150px)',
                     gridTemplateRows: 'repeat(3, 150px)',
-                    border: "5px solid red"
+                    // border: "5px solid red"
                 }}>
                     {
                         Array(9).fill().map((_,index) => {

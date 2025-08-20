@@ -1,17 +1,20 @@
 {
     "mastermind": {
         "title": "Mastermind",
-        "img_src": "https://placehold.co/600x400",
+        "complete": true,
+        "img_src": "src/assets/imgs/mastermind.png",
         "path": "/mastermind"
     },
     "sudoku": {
         "title": "Sudoku",
-        "img_src": "https://placehold.co/600x400",
+        "complete": false,
+        "img_src": "src/assets/imgs/sudoku.png",
         "path": "/sudoku"
     }, 
     "minesweeper": {
         "title": "Minesweeper",
-        "img_src": "https://placehold.co/600x400",
+        "complete": true,
+        "img_src": "src/assets/imgs/minesweeper.png",
         "path": "/minesweeper"
     }
 }

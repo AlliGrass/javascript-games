@@ -25,13 +25,14 @@ function MastermindRow({colourList, active, updateAttempt, attemptFeedback}) {
 
     return (
         <div style={{ 
-            border: '5px solid black',
+            // border: '5px solid black',
             display: "grid",
             gridTemplateColumns: "4fr 1fr"
         }}>
             <section>
                 <div style={{
                     padding: "15px",
+                    paddingLeft: "10px",
                     display: "flex",
                     justifyContent: "space-between",
                     alignItems: "center"

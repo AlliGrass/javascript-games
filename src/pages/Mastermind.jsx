@@ -41,15 +41,22 @@ function Mastermind() {
     return (
         <div>
             <h1>Mastermind</h1>
-            <section>
+            <section style={{ 
+                    border: "3px solid #493628",
+                    borderRadius: "20px"
+                }}>
                 {
                     Array(8).fill().map((_,index) => (
                         <MastermindRow key={index} colourList={colourList} active={activeRow === index} updateAttempt={setCurrentAttempt} attemptFeedback={attemptFeedback[index]}/>
                     ))
                 }
-                <button onClick={checkSolution}>Submit</button>
-                <button onClick={() => {console.log(solution + currentAttempt)}}>Check Solution</button>
+                
             </section>
+            <div style={{ "padding": "20px" }}>
+                <button onClick={checkSolution}>Submit</button>
+                {/* <button onClick={() => {console.log(solution + currentAttempt)}}>Check Solution</button> */}
+            </div>
+                
         </div>
     )
 }
